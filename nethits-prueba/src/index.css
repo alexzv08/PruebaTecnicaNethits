@@ -1,0 +1,25 @@
+.bg-image {
+  background-image: url('./assets/background.jpg'); /* puede ser relativa o absoluta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  width: 300px;
+  margin: auto;
+}
+
+.bg-orange-soft {
+  background-color: rgb(255, 132, 43, 0.7);
+  width: 100%;
+}
+
+.header-page {
+  position: 'fixed';
+  top: 0;
+  left: 0;
+  right: 0;
+  height  : 60px;
+  zIndex: 1000;
+}
